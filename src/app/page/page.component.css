@@ -1,0 +1,8 @@
+tr:nth-child(even) {
+    background-color: hsl(0, 0%, 87%);
+  }
+  table{ 
+    border:1px ridge black;
+    width : 70%;  
+    margin-left: 16%;
+}

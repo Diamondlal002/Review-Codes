@@ -1,0 +1,23 @@
+<p></p>
+
+
+
+<h1 style="text-align:center;color: blue;">Get Request (https://jsonplaceholder.typicode.com/users)</h1>
+
+<table style="text-align: center; background-color:limegreen;">
+  <tr>
+    <th>id:</th>
+    <th>name:</th>
+    <th>email:</th>
+    <th>website:</th>
+    address:
+  </tr>
+
+  <tr *ngFor="let com of lstcomments">
+  <td>{{com.id}}</td>
+  <td><a  [routerLink]="['/outputpage',com.id]" >{{com.name}}</a></td>
+  <td>{{com.email}}</td>
+  <td>{{com.website}}</td>
+  {{com.address.geo.lat}}
+  </tr>
+</table>
